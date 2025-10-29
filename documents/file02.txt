@@ -1,0 +1,5 @@
+Guida rapida all'indicizzazione
+
+Per indicizzare correttamente un insieme di documenti, è importante scegliere 
+gli analyzer appropriati per ogni campo. 
+Un buon analyzer aiuta a gestire stopwords, stemming e tokenizzazione corretta.

@@ -1,0 +1,5 @@
+Introduzione a Lucene
+
+Lucene è una libreria open-source per la ricerca full-text scritta in Java. 
+Permette di indicizzare e cercare testi in modo efficiente. 
+Supporta query complesse e ranking dei risultati in base alla rilevanza.
