@@ -6,7 +6,8 @@ import org.apache.lucene.util.BytesRef;
 import org.apache.lucene.search.*;
 import java.io.IOException;
 import java.nio.file.Paths;
-
+// GENERATO DALL'AI
+// Lettura e visualizzazione dei termini indicizzati
 public class IndexReader {
 
     public static void main(String[] args) {
