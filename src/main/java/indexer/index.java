@@ -27,6 +27,8 @@ public class Index {
         Path indexDir = Paths.get("index");
 
         try {
+            // timer per calcolare il tempo di indicizzazione
+            long startTime = System.currentTimeMillis();
             // analyzer per l'analisi del testo
             // si applica in automatico ai campi di tipo TextField, ignora i campi di tipo StringField
             // Versione italiana (tokenizzazione, rimozione stop words italiane, stemming italiano e normalizzazione)
@@ -80,7 +82,10 @@ public class Index {
             }
             // chiude l'IndexWriter, fa implicitamente il commit delle modifiche
             writer.close();
+            Long endTime = System.currentTimeMillis();
+            Long elapsedTime = endTime - startTime;
             System.out.println("\nIndicizzazione completata con successo.");
+            System.out.println("Tempo impiegato: " + elapsedTime + " ms");
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -7,4 +7,4 @@ mvn exec:java -Dexec.mainClass="indexer.Index"
 # Index Reader #
 mvn exec:java -Dexec.mainClass="indexer.IndexReader"
 # Search #
-mvn exec:java -Dexec.mainClass="indicizzatore.Cerca"
+mvn exec:java -Dexec.mainClass="indexer.Search"

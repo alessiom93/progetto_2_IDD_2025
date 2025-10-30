@@ -51,8 +51,8 @@ public class Search {
             Scanner input = new Scanner(System.in);
             System.out.println("=== Sistema di Ricerca ===");
             System.out.println("Scrivi la query seguendo questa sintassi:");
-            System.out.println(" - filename <termine>  → cerca nel nome del file");
-            System.out.println(" - content <termine>   → cerca nel contenuto del file");
+            System.out.println(" - filename <termine>  -> cerca nel nome del file");
+            System.out.println(" - content <termine>   -> cerca nel contenuto del file");
             System.out.println("Puoi usare le virgolette per phrase query (es: contenuto \"ricerca di testo\")");
             System.out.print("\nQuery: ");
             String queryStr = input.nextLine().trim();
