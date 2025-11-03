@@ -10,6 +10,7 @@ La cartella src/main/java/indexer contiene 3 file:
 - Index.java: è l'indicizzatore Lucene.
 - IndexReader.java: è uno script generato dall'IA per leggere l'indice, solo per debug.
 - Search.java: è ll ricercatore Lucene sull'indice.<br>
+<br>
 Il file pom.xml contiene le dipendenze.<br>
 Il file readme.md è questo che stai leggendo.
 
