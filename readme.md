@@ -3,7 +3,7 @@ Questo è un progetto per il secondo homework dell'esame di Ingegneria dei dati 
 E' un sistema di indicizzazione e ricerca di file testuali con Apache Lucene.
 
 ### STRUTTURA PROGETTO ###
-La cartella documents contiene 200 file di testo generati dall'IA.
+La cartella documents contiene 200 file di testo generati dall'IA.<br>
 La certella documents_old contiene 2 file ti testo generati da me per i primi test.
 La cartella index contiene l'indice dopo il processo di indicizzazione.
 La cartella src/main/java/indexer contiene 3 file:
